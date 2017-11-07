@@ -10,5 +10,7 @@ public class Object {
 		this.mass = mass;
 		this.xVelocity = xVelocity;
 		this.yVelocity = yVelocity;
+		this.acceleration = acceleration;
+		this.position = position;
 	}
 }
