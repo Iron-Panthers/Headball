@@ -5,15 +5,17 @@ public abstract class Object {
 	double xVelocity;
 	double yVelocity;
 	double acceleration;
-	double position;
+	double xPosition;
+	double yPosition;
 	double width;
 	double height;
-	public Object(double mass, double xVelocity, double yVelocity, double acceleration, double position, double width, 	double height) {
+	public Object(double mass, double xVelocity, double yVelocity, double acceleration, double xPosition, double yPosition, double width, double height) {
 		this.mass = mass;
 		this.xVelocity = xVelocity;
 		this.yVelocity = yVelocity;
 		this.acceleration = acceleration;
-		this.position = position;
+		this.xPosition = xPosition;
+		this.yPosition = yPosition;
 		this.width = width;
 		this.height = height;
 	}
