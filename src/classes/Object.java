@@ -21,7 +21,11 @@ public abstract class Object {
 		this.width = width;
 		this.height = height;
 	}
-	public void move() {
+	public void move(double time) {
+		xVelocity += (xAcceleration* time );
+		yVelocity += (yAcceleration* time);
+		xPosition += (xVelocity * time);
+		yPosition += (yVelocity * time);
 		
 	}
 }
