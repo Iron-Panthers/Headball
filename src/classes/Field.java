@@ -14,12 +14,16 @@ public class Field {
 	public Ball ball;
 	public Goal goal1;
 	public Goal goal2;
+	public Score score1;
+	public Score score2;
 	public Field() {
-		this.wall = new Wall(0,0,screenW,screenH);
-		this.head1 = new Head();
-		this.head2 = new Head();
-		this.ball = new Ball();
-		this.goal1 = new Goal();
-		this.goal2 = new Goal();
+		wall = new Wall(0,0,screenW,screenH);
+		head1 = new Head();
+		head2 = new Head();
+		ball = new Ball();
+		goal1 = new Goal();
+		goal2 = new Goal();
+		score1 = new Score();
+		score2 = new Score();
 	}
 }
