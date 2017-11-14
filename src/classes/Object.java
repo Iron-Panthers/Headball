@@ -2,14 +2,14 @@ package classes;
 
 public abstract class Object {
 	double mass;
-	double xVelocity;
-	double yVelocity;
+	 double xVelocity;
+	 double yVelocity;
 	double xAcceleration;
-	double yAcceleration;
+	 double yAcceleration;
 	double xPosition;
-	double yPosition;
-	double width;
-	double height;
+	 double yPosition;
+	 double width;
+	 double height;
 	public Object(double mass, double xVelocity, double yVelocity, double xAcceleration, double yAcceleration, double xPosition, double yPosition, double width, double height) {
 		this.mass = mass;
 		this.xVelocity = xVelocity;
