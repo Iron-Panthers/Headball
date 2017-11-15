@@ -27,5 +27,16 @@ public abstract class Object {
 		xPosition += (xVelocity * time);
 		yPosition += (yVelocity * time);
 		
+		xAcceleration = 0;
+		yAcceleration = 0;
+		
+	}
+	public void applyForce(double nx[], double ny[]) {
+		for(int i =0; i < nx.length; i++) {
+			xAcceleration += nx[i]/mass;
+		}
+		for(int i = 0; i < ny.length; i++) {
+			yAcceleration += ny[i]/mass;
+		}
 	}
 }
