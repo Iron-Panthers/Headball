@@ -8,7 +8,7 @@ public class Score {
 	public Score() {
 	}
 	public void scored() {
-		if (Main.field.ball.xPosition = 1 && Main.field.ball.yPosition = 1) {
+		if (Main.field.ball.xPosition = Main.field.goal1.xPosition && Main.field.ball.yPosition = 100) {
 			score++;
 		}
 	}

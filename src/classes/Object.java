@@ -6,8 +6,8 @@ public abstract class Object {
 	double yVelocity;
 	double xAcceleration;
 	double yAcceleration;
-	double xPosition;
-	double yPosition;
+	public double xPosition;
+	public double yPosition;
 	double width;
 	double height;
 	public Object(double mass, double xVelocity, double yVelocity, double xAcceleration, double yAcceleration, double xPosition, double yPosition, double width, double height) {
