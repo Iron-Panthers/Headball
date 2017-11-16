@@ -18,4 +18,7 @@ public class Player extends Object {
 			applyforce(-0.33,0);
 		}
 	}
+	public static void playerMoveLeft() {
+		applyforce(0,1 - yVelocity * mass);
+	}
 }
