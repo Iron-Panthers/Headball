@@ -7,8 +7,8 @@ public class Score {
 	int score;
 	public Score() {
 	}
-	public void scored() {
-		if (Main.field.ball.xPosition = Main.field.goal1.xPosition && Main.field.ball.yPosition = 100) {
+	public void scored(double x1,double x2,double y1, double y2) {
+		if (Main.field.ball.xPosition > x1 && Main.field.ball.xPosition < x2 && Main.field.ball.yPosition > y1 && Main.field.ball.yPosition < y2) {
 			score++;
 		}
 	}
