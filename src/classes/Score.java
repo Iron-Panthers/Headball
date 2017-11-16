@@ -1,7 +1,6 @@
 package classes;
 
 import main.Main;
-import objects.Ball;
 
 public class Score {
 	int score;
