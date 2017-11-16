@@ -8,7 +8,10 @@ import objects.Wall;
 public class Field {
 	double screenW = Constants.ScreenW;
 	double screenH = Constants.ScreenH;
-	public Wall wall;
+	public Wall wall1;
+	public Wall wall2;
+	public Wall roof;
+	public Wall floor;
 	public Head head1;
 	public Head head2;
 	public Ball ball;
@@ -17,7 +20,10 @@ public class Field {
 	public Score score1;
 	public Score score2;
 	public Field() {
-		wall = new Wall(0,0,screenW,screenH);
+		wall1 = new Wall(0,0,0,0);
+		wall2 = new Wall(0,0, 0,0);
+		floor = new Wall(0,0,0,0);
+		roof = new Wall(0,0,0,0);
 		head1 = new Head();
 		head2 = new Head();
 		ball = new Ball();
