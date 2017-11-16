@@ -1,6 +1,6 @@
 package objects;
 
-public class Player {
+public class Player extends Object {
 	Head head;
 	Feet feet;
 	public Player(double x, double y) {
