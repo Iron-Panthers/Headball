@@ -1,8 +1,8 @@
 package objects;
 
-public class Player extends Object {
-	Head head;
-	Feet feet;
+public class Player {
+	static Head head;
+	static Feet feet;
 	public Player(double x, double y) {
 		head = new Head(0, 0, x, y);
 		feet = new Feet(0,0,x,y);
