@@ -3,6 +3,7 @@ package classes;
 import objects.Ball;
 import objects.Goal;
 import objects.Head;
+import objects.Player;
 import objects.Wall;
 
 public class Field {
@@ -12,8 +13,8 @@ public class Field {
 	public Wall wall2;
 	public Wall roof;
 	public Wall floor;
-	public Head head1;
-	public Head head2;
+	public Player p2;
+	public Player p1;
 	public Ball ball;
 	public Goal goal1;
 	public Goal goal2;
@@ -24,11 +25,11 @@ public class Field {
 		wall2 = new Wall(0,0, 0,0);
 		floor = new Wall(0,0,0,0);
 		roof = new Wall(0,0,0,0);
-		head1 = new Head();
-		head2 = new Head();
+		p1 = new Player();
+		p2 = new Player();
 		ball = new Ball();
-		goal1 = new Goal();
-		goal2 = new Goal();
+		goal1 = new Head();
+		goal2 = new Head();
 		score1 = new Score();
 		score2 = new Score();
 	}
