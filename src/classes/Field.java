@@ -16,8 +16,8 @@ public class Field {
 	public Player p2;
 	public Player p1;
 	public Ball ball;
-	public Goal goal1;
-	public Goal goal2;
+	public Wall goal1;
+	public Wall goal2;
 	public Score score1;
 	public Score score2;
 	public Field() {
@@ -28,8 +28,8 @@ public class Field {
 		p1 = new Player();
 		p2 = new Player();
 		ball = new Ball();
-		goal1 = new Head();
-		goal2 = new Head();
+		goal1 = new Wall();
+		goal2 = new Wall();
 		score1 = new Score();
 		score2 = new Score();
 	}
