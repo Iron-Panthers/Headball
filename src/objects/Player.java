@@ -19,4 +19,7 @@ public class Player {
 			feet.applyforce(-0.33,0);
 		}
 	}
+	public static void jump() {
+		
+	}
 }
