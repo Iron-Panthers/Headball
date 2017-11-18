@@ -7,7 +7,13 @@ import objects.Player;
 
 public class KeyListen implements KeyListener {
 	public void keyPressed(KeyEvent a) {
-		Player.playerMoveLeft();
+		System.out.println(a.getKeyCode());
+		if (a.getKeyCode() == 81) {
+			Player.playerMoveLeft();
+		}
+		if (a.getKeyCode() == 82) {
+			Player.playerMoveRight();
+		}
 	}
 	public void keyTyped(KeyEvent a) {
 
