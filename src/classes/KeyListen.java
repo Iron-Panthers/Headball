@@ -15,7 +15,7 @@ public class KeyListen implements KeyListener {
 			Player.playerMoveRight();
 		}
 		if (a.getKeyCode() == 119) {
-			
+			Player.jump();
 		}
 	}
 	public void keyTyped(KeyEvent a) {
