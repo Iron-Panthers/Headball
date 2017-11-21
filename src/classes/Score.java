@@ -7,9 +7,8 @@ public class Score {
 	public Score() {
 	}
 	public void scored(double x1,double x2,double y1, double y2) {
-		if (Main.field.ball.xPosition > x1 && Main.field.ball.xPosition < x2 && Main.field.ball.yPosition > y1 && Main.field.ball.yPosition < y2) {
-			score++;
-		}
+		score++;
+		Main.field.ball.setPosition(0,0,1,1);
 	}
 	public void initialize() {
 		score = 0;

@@ -1,15 +1,11 @@
 package main;
 
-import java.awt.event.KeyEvent;
-import classes.KeyListen;
-
 import classes.Field;
+import classes.KeyListen;
 
 public class Main {
 	public static Field field;
 	public KeyListen keyList;
-	public static KeyEvent w;
-	public static KeyEvent d;
 	public static void main(String[]args) {
 		
 	}
