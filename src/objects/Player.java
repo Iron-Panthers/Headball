@@ -1,8 +1,8 @@
 package objects;
 
 public class Player {
-	static Head head;
-	static Feet feet;
+	public static Head head;
+	public static Feet feet;
 	public Player(double x, double y) {
 		head = new Head(0, 0, x, y);
 		feet = new Feet(0,0,x,y);
