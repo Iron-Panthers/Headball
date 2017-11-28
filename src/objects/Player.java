@@ -22,7 +22,16 @@ public class Player {
 	public void jump() {
 		if(head.yVelocity < 1) {
 			head.applyForce(0.33, 0.33);
-			feet.applyForce(0.33, 0.33);
 		}
+	public static void setPosition() {
+		head.xPosition = 0;
+		feet.xPosition = 0;
+		head.yPosition = 0;
+		feet.yPosition = 0;
+		head.xVelocity = 0;
+		feet.xVelocity = 0;
+		head.yVelocity = 0;
+		feet.yVelocity = 0;
+	}
 	}
 }

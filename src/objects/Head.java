@@ -21,6 +21,6 @@ public class Head extends Object {
 		
 	}
 	public void jump() {
-		applyforce(0,1-9.8* mass);
+		applyforce(0,1* mass);
 	}
 }
