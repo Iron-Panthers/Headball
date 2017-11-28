@@ -1,8 +1,6 @@
 package classes;
 
 import objects.Ball;
-import objects.Goal;
-import objects.Head;
 import objects.Player;
 import objects.Wall;
 
